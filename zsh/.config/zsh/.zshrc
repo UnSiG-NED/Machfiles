@@ -97,3 +97,6 @@ export QT_QPA_PLATFORMTHEME=qt5ct
 # setxkbmap -option caps:swapescape
 
 
+
+test -e "${ZDOTDIR}/.iterm2_shell_integration.zsh" && source "${ZDOTDIR}/.iterm2_shell_integration.zsh"
+
