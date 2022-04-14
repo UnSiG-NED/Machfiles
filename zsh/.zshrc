@@ -168,3 +168,16 @@ neofetch
 POWERLEVEL9K_PROMPT_ADD_NEWLINE_COUNT=1
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
 # Theme End
+
+# Python path
+export PATH=/Users/haoyu/Library/Python/3.8/bin:$PATH
+
+# Setting for the new UTF-8 terminal support in Lion
+LC_CTYPE=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+
+bindkey -M viins '^r' history-incremental-search-backward
+bindkey -M vicmd '^r' history-incremental-search-backward
+
+# Alias
+alias ls='ls -laht --color=auto'
